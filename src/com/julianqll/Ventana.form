@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.julianqll.Ventana">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="662" height="359"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="189d5" class="javax.swing.JLabel" binding="numero1Label">
+        <constraints/>
+        <properties>
+          <text value="Número1"/>
+        </properties>
+      </component>
+      <component id="c19d7" class="javax.swing.JTextField" binding="numero1Field">
+        <constraints/>
+        <properties>
+          <alignmentX value="1.0"/>
+          <columns value="15"/>
+          <editable value="true"/>
+          <horizontalAlignment value="0"/>
+          <margin top="4" left="12" bottom="4" right="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e7a2c" class="javax.swing.JLabel" binding="numero2Label">
+        <constraints/>
+        <properties>
+          <text value="Número2"/>
+        </properties>
+      </component>
+      <component id="b899" class="javax.swing.JTextField" binding="numero2Field">
+        <constraints/>
+        <properties>
+          <columns value="15"/>
+          <horizontalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="f28d1" class="javax.swing.JButton" binding="sumarBoton">
+        <constraints/>
+        <properties>
+          <text value="SUMAR"/>
+        </properties>
+      </component>
+      <component id="273da" class="javax.swing.JButton" binding="restarBoton">
+        <constraints/>
+        <properties>
+          <text value="RESTAR"/>
+        </properties>
+      </component>
+      <component id="9bd0c" class="javax.swing.JButton" binding="multiplicarBoton">
+        <constraints/>
+        <properties>
+          <text value="MULTIPLICAR"/>
+        </properties>
+      </component>
+      <component id="458cd" class="javax.swing.JButton" binding="dividirButton">
+        <constraints/>
+        <properties>
+          <text value="DIVIDIR"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
